@@ -2,6 +2,25 @@ import socket
 import logging
 from datetime import datetime
 
+def handle_client(client_socket, addr):
+    print(f"[!] Connection attempt from {addr[0]}:{addr[1]}")
+
+    # Send welcome message to client
+    client_socket.send(b"Welcome to HoneySentinel!\n")
+
+    try:
+        while True:
+            data = client_socket.recv(1024)
+            if not data:
+                break
+            print(f"[>] Received from {addr[0]}:{addr[1]}: {data.decode().strip()}")
+            # Echo back the received data
+            client_socket.send(b"You said: " + data)
+    except Exception as e:
+        print(f"[!] Client error: {e}")
+
+    client_socket.close()
+
 # Config
 HOST = '0.0.0.0'  
 PORT = 2222        
