@@ -16,3 +16,15 @@ cd HoneySentinel-Lightweight-Honeypot-for-Intrusion-Detection
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
+▶️ Usage
+bash
+Copy
+Edit
+python honeypot.py
+📂 Logs
+Connection attempts are stored in logs/connections.log.
+
+🤝 Contributing
+Want to improve it? Add new features?
+Go ahead and submit a pull request or reach out!
