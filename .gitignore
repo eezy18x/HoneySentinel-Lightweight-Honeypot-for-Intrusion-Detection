@@ -1,0 +1,7 @@
+__pycache__/
+*.log
+venv/
+*.pyc
+*.pyo
+*.pyd
+*.swp
