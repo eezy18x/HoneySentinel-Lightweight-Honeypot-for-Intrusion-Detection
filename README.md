@@ -10,13 +10,22 @@ HoneySentinel is a simple and efficient honeypot designed to simulate vulnerable
 
 ## ⚙️ Installation
 
-```bash
+```
 git clone https://github.com/eezy18x/HoneySentinel-Lightweight-Honeypot-for-Intrusion-Detection.git
+```
+```
 cd HoneySentinel-Lightweight-Honeypot-for-Intrusion-Detection
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+```
 
+```
+python3 -m venv venv
+```
+```
+source venv/bin/activate
+```
+```
+pip install -r requirements.txt
+```
 ▶️ Usage
 bash
 Copy
