@@ -26,12 +26,8 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 ```
-▶️ Usage
-bash
-Copy
-Edit
-python honeypot.py
-📂 Logs
+
+📂 Logs <br>
 Connection attempts are stored in logs/connections.log.
 
 🤝 Contributing
