@@ -30,6 +30,6 @@ pip install -r requirements.txt
 📂 Logs <br>
 Connection attempts are stored in logs/connections.log.
 
-🤝 Contributing
+🤝 Contributing <br>
 Want to improve it? Add new features?
 Go ahead and submit a pull request or reach out!
